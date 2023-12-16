@@ -44,3 +44,34 @@ body {
 .menu-item {
     padding-right: 30px;
 }
+
+.headline {
+    background-color: #F5F5F7;
+    text-align: center;
+    padding: 70px 0 40px;
+}
+
+.title {
+    text-transform: uppercase;
+    margin-bottom: 0 0 40px;
+    color: #490E84;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+}
+
+.headline-img {
+    margin-bottom: 25px;
+}
+
+.headline-btn {
+    display: inline-block;
+    color: #fff;
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #490E84;
+    padding: 22px 117px 19px;
+    border-radius: 30px;
+}
