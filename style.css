@@ -84,3 +84,38 @@ body {
     padding: 22px 117px 19px;
     border-radius: 30px;
 }
+
+.news {
+    padding: 90px 0 150px;
+}
+
+.news-title {
+    margin: 0 0 50px;
+    color: #717171;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 32px;
+    line-height: 39px;
+    font-weight: 700;
+}
+
+.news-info {
+    display: flex;
+    align-items: center;
+}
+
+.news-text p {
+    margin: 0 0 30px;
+    max-width: 500px;
+}
+
+.news-text b {
+    max-width: 560px;
+    font-size: 20px;
+    line-height: 26px;
+    display: block;
+}
+
+.images-news {
+    margin-left: 190px;
+}
