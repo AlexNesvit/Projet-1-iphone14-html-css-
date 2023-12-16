@@ -39,7 +39,16 @@ body {
 
 .menu {
     display: flex;
+    flex-grow: 1;
+    flex-basis: 0;
 }
+
+.phone {
+    flex-grow: 1;
+    flex-basis: 0;
+    text-align: right;
+}
+
 
 .menu-item {
     padding-right: 30px;
