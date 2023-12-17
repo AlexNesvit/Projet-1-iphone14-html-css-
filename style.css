@@ -219,6 +219,10 @@ body {
     padding: 50px 0;
 }
 
+.menu-btn{
+    display: none;
+}
+
 @media (max-width: 1200px){
     .headline-img {
         max-width: 100%;
@@ -252,12 +256,25 @@ body {
 }
 
 @media (max-width: 940px){
+    .menu-btn{
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        background-color: greenyellow;
+        order: 1;
+    }
+    .menu{
+        display: none;
+    }
     .images-news{
         display: none;
     }
     .news-text p,
     .news-text b{
         max-width: 100%;
+    }
+    .phone{
+        text-align: center;
     }
 }
 
