@@ -260,8 +260,30 @@ body {
         display: inline-block;
         width: 50px;
         height: 50px;
-        background-color: greenyellow;
+        background-color: transparent;
         order: 1;
+        border: none;
+        cursor: pointer;
+        position: relative;
+    }
+    .btn-line{
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        height: 2px;
+    }
+    .btn-line:nth-child(1){
+        top: 0;
+    }
+    .btn-line:nth-child(2){
+        top: 20px;
+    }
+    .btn-line:nth-child(3){
+        top: 20px;
+    }
+    .btn-line:nth-child(4){
+        top: 40px;
     }
     .menu{
         display: none;
