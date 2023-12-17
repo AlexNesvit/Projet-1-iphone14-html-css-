@@ -143,3 +143,40 @@ body {
 .color-item p {
     margin: 0;
 }
+
+.contacts-inner {
+    display: flex;
+    background-color: #574b63;
+    color: #fff;
+}
+
+.contacts-form {
+    width: 100%;
+    padding: 140px 100px;
+} 
+
+.contacts-title {
+    margin: 0 0 60px;
+    text-transform: uppercase;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.contacts-input {
+    padding: 10px 0;
+    border: none;
+    border-bottom: 1px solid #fff;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: #574b63;
+}
+
+.contacts-input::placeholder {
+    font-size: 14px;
+    line-height: 18px;
+    color: #fff;
+    opacity: .5;
+    font-family: 'inter', sans-serif;
+    font-weight: 400;
+}
