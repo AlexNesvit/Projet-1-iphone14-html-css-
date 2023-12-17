@@ -274,6 +274,16 @@ body {
 
 }
 
+@media (max-width:640px){
+    .footer-inner{
+        padding: 20% 0;
+        flex-direction: column;
+    }
+    .footer-inner .logo{
+        margin: 15px 0;
+    }
+}
+
 @media (max-width:560px) {
     .title{
         font-size: 34px;
