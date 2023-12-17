@@ -223,6 +223,21 @@ body {
     .headline-img {
         max-width: 100%;
     }
+    .contacts-inner{
+        display: block;
+    }
+    .contacts-form{
+        width: auto;
+    }
+    .contacts-title{
+        text-align: center;
+    }
+    .contacts-img{
+        width: 100%;
+    }
+    .contacts{
+        background-color: #490E84;
+    }
 }
 
 @media (max-width: 1100px){
@@ -260,7 +275,17 @@ body {
         line-height: 22px;
         padding: 16px 90px 19px;
     }
-    .color-item{
+    .color-item, 
+    .color-item img{
         width: 100%;
+    }
+    .contacts-form{
+        padding: 140px 30px;
+    }
+}
+
+@media (max-width:375px){
+    .contacts-form{
+    padding: 140px 10px;
     }
 }
