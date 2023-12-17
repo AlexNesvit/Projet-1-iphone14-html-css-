@@ -265,6 +265,12 @@ body {
         border: none;
         cursor: pointer;
         position: relative;
+        z-index: 50;
+    }
+    .logo,
+    .phone{
+        position: relative;
+        z-index: 50;
     }
     .btn-line{
         position: absolute;
@@ -272,6 +278,7 @@ body {
         width: 100%;
         background-color: #fff;
         height: 2px;
+        transition: .3s ease;
     }
     .btn-line:nth-child(1){
         top: 0;
@@ -298,7 +305,25 @@ body {
         transform: scaleX(0);
     }
     .menu{
-        display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #0a0a0a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: translateY(-100%);
+    transition: .3s ease;
+    }
+    .menu-open .menu{
+        transform: translateY(0%);
+    }
+    .menu-item{
+        padding: 50px 0;
+        font-size: 56px;
     }
     .images-news{
         display: none;
