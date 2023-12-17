@@ -261,6 +261,19 @@ body {
     }
 }
 
+@media (max-width:768px){
+    .headline, .news{
+    padding: 50px 0;
+    }
+    .color{
+        padding-bottom: 50px;
+    }
+    .contacts-form{
+        padding: 50px 70px;
+    }
+
+}
+
 @media (max-width:560px) {
     .title{
         font-size: 34px;
@@ -280,12 +293,12 @@ body {
         width: 100%;
     }
     .contacts-form{
-        padding: 140px 30px;
+        padding: 50px 30px;
     }
 }
 
 @media (max-width:375px){
     .contacts-form{
-    padding: 140px 10px;
+    padding: 50px 10px;
     }
 }
