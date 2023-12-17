@@ -139,3 +139,7 @@ body {
     line-height: 26px;
     margin: 0 0 10px;
 }
+
+.color-item p {
+    margin: 0;
+}
