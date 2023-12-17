@@ -383,6 +383,21 @@ body {
     }
 }
 
+@media (max-width:420px){
+    .nav {
+        flex-wrap: wrap;
+    }
+    .phone{
+        flex-basis: auto;
+        margin-top: 50px;
+        order: 3;
+        width: 100%;
+    }
+    .menu-item{
+        font-size: 32px;
+    }
+}
+
 @media (max-width:375px){
     .contacts-form{
     padding: 50px 10px;
