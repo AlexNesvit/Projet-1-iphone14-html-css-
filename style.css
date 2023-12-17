@@ -89,7 +89,7 @@ body {
     padding: 90px 0 150px;
 }
 
-.news-title {
+.news-title, .color-title {
     margin: 0 0 50px;
     color: #717171;
     text-transform: uppercase;
@@ -118,4 +118,24 @@ body {
 
 .images-news {
     margin-left: 190px;
+}
+
+.color {
+    padding-bottom: 150px;
+}
+
+.color-list {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.color-item img {
+    margin-bottom: 20px;
+}
+
+.color-item h3 {
+    font-size: 20px;
+    line-height: 26px;
+    margin: 0 0 10px;
 }
