@@ -1,2 +1,2 @@
-# Mon projet [(Voir ici)](https://alexnesvit.github.io/Projet-1-iphone14-html-css-/) consiste à créer un site pour l'achat de l'iPhone 14 Pro. J'ai utilisé les langages HTML et CSS, ainsi que l'outil Figma pour la conception du site.
+# Mon projet [(voir ici)](https://alexnesvit.github.io/Projet-1-iphone14-html-css-/) consiste à créer un site pour l'achat de l'iPhone 14 Pro. J'ai utilisé les langages HTML et CSS, ainsi que l'outil Figma pour la conception du site.
 ## Adaptation.
