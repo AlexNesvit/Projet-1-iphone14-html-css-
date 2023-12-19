@@ -1,2 +1,2 @@
 # Mon projet [(voir ici)](https://alexnesvit.github.io/Projet-1-iphone14-html-css-/) consiste à créer un site pour l'achat de l'iPhone 14 Pro. J'ai utilisé les langages HTML et CSS, ainsi que l'outil Figma pour la conception du site.
-## Adaptation.
+## Ce site a été conçu pour s'adapter à divers écrans, avec des points de rupture pour l'adaptation fixés à 1100px, 940px, 768px, 640px, 560px, 420px et 375px.
